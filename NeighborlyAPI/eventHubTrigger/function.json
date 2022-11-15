@@ -1,0 +1,12 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "type": "eventGridTrigger",
+      "name": "event",
+      "direction": "in",
+      "eventHubName": "project-event-name-khalid", 
+      "connection": "Endpoint=sb://project-event-khalid.servicebus.windows.net/;SharedAccessKeyName=allpolicy;SharedAccessKey=70IvlhdOEAO5XCC5cH47IY4v5P3Ft4wBql/il2NR2Ek=;EntityPath=project-event-name-khalid"
+    }
+  ]
+}
